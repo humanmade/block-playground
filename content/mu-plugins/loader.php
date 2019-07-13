@@ -22,6 +22,6 @@ $global_mu_plugins = [
 // Load the plugin files, if they exist.
 foreach ( $global_mu_plugins as $file ) {
 	if ( is_readable( WPMU_PLUGIN_DIR . '/' . $file ) ) {
-		require_once WPMU_PLUGIN_DIR . '/' . $file;
+		include_once WPMU_PLUGIN_DIR . '/' . $file;
 	}
 }
