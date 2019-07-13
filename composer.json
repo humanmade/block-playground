@@ -17,6 +17,13 @@
     ],
     "minimum-stability": "stable",
     "extra": {
+        "altis": {
+            "modules": {
+                "media": {
+                    "tachyon": false
+                }
+            }
+        },
         "installer-paths": {
             "content/mu-plugins/{$name}/": [
                 "type:wordpress-muplugin"
