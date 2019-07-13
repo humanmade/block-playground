@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4cd114dbd4c559faf8366fcde593231",
+    "content-hash": "17ae42198660f70172935bdd754dab8d",
     "packages": [
         {
             "name": "altis/altis",
@@ -2694,6 +2694,24 @@
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
             "time": "2018-11-11T11:18:13+00:00"
+        },
+        {
+            "name": "wpackagist-theme/twentynineteen",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/twentynineteen/",
+                "reference": "1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentynineteen.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/twentynineteen/"
         }
     ],
     "packages-dev": [

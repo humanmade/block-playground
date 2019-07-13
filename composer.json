@@ -1,10 +1,17 @@
 {
     "name": "altis/skeleton",
-    "description": "A base Altis project to get started with",
+    "description": "An Altis-based local development environment for learning Gutenberg",
     "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
     "require": {
         "altis/altis": "^1.0.0",
-        "humanmade/asset-loader": "^0.3.2"
+        "humanmade/asset-loader": "^0.3.2",
+        "wpackagist-theme/twentynineteen": "^1.4.0"
     },
     "require-dev": {
         "altis/local-chassis": "^1.0.0",
