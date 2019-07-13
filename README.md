@@ -14,6 +14,7 @@ composer chassis init
 
 ## Local Development
 
+- `npm run phpcs`: Run the PHP CodeSniffer linting tool against your project code.
 - `npm run vagrant`: Run any vagrant command against the virtual machine. May only be used after initializing the local Chassis development environment.
   - `npm run vagrant up`: Start the virtual machine.
   - `npm run vagrant halt`: Stop the virtual machine.

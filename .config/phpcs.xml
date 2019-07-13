@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ruleset>
+	<description>Project configuration for Block Playground</description>
+
+	<!-- Use HM Coding Standards -->
+	<rule ref="vendor/humanmade/coding-standards">
+		<!-- Don't restrict namespaced functions to `namespace.php` -->
+		<exclude name="HM.Files.FunctionFileName" />
+
+		<!-- Relax namespace directory naming check. -->
+		<exclude name="HM.Files.NamespaceDirectoryName" />
+	</rule>
+
+	<!-- Add PHPDoc rules -->
+	<rule ref="WordPress-Docs" />
+
+	<!-- 3rd party vendor files -->
+	<exclude-pattern>./chassis/*</exclude-pattern>
+	<exclude-pattern>./content/mu-plugins/asset-loader/*</exclude-pattern>
+	<exclude-pattern>./content/themes/base/*</exclude-pattern>
+	<exclude-pattern>./content/themes/twenty*/*</exclude-pattern>
+	<exclude-pattern>./wordpress/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+
+	<!-- WordPress-used files -->
+	<exclude-pattern>./content/object-cache.php</exclude-pattern>
+	<exclude-pattern>./content/themes/index.php</exclude-pattern>
+	<exclude-pattern>./healthcheck.php</exclude-pattern>
+	<exclude-pattern>./index.php</exclude-pattern>
+	<exclude-pattern>./wp-config*.php</exclude-pattern>
+	<exclude-pattern>.config/*</exclude-pattern>
+</ruleset>

@@ -15,7 +15,8 @@
     },
     "require-dev": {
         "altis/local-chassis": "^1.0.0",
-        "altis/local-server": "^1.0.0"
+        "altis/local-server": "^1.0.0",
+        "humanmade/coding-standards": "^0.7.0"
     },
     "authors": [
         {
