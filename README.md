@@ -9,12 +9,21 @@ Custom blocks should be created within the [`custom-blocks` mu-plugin](./content
 ```
 git clone git@github.com:humanmade/block-playground.git
 cd block-playground
+composer install
+npm install
 composer chassis init
 ```
 
 ## Local Development
 
+**Frontend development commands**
+
+- `npm start`: Run the hot-reloading development server.
+- `npm run build`: Generate production-ready frontend asset bundles.
 - `npm run phpcs`: Run the PHP CodeSniffer linting tool against your project code.
+
+**Virtual Machine commands**
+
 - `npm run vagrant`: Run any vagrant command against the virtual machine. May only be used after initializing the local Chassis development environment.
   - `npm run vagrant up`: Start the virtual machine.
   - `npm run vagrant halt`: Stop the virtual machine.
