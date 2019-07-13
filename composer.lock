@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "947a3328b8b05329032dce57a793dcbe",
+    "content-hash": "c4cd114dbd4c559faf8366fcde593231",
     "packages": [
         {
             "name": "altis/altis",
@@ -1339,6 +1339,31 @@
             "description": "WordPress plugin for adding AMP support.",
             "homepage": "https://github.com/ampproject/amp-wp",
             "time": "2019-03-26T16:58:54+00:00"
+        },
+        {
+            "name": "humanmade/asset-loader",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/asset-loader.git",
+                "reference": "865a6401f0219a449175954fda8e6c9df18d8e2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/asset-loader/zipball/865a6401f0219a449175954fda8e6c9df18d8e2a",
+                "reference": "865a6401f0219a449175954fda8e6c9df18d8e2a",
+                "shasum": ""
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "^0.6.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Utilities to seamlessly consume Webpack-bundled assets in WordPress themes & plugins.",
+            "time": "2019-07-08T14:10:51+00:00"
         },
         {
             "name": "humanmade/aws-rekognition",

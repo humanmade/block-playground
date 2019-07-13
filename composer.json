@@ -3,7 +3,8 @@
     "description": "A base Altis project to get started with",
     "type": "project",
     "require": {
-        "altis/altis": "^1.0.0"
+        "altis/altis": "^1.0.0",
+        "humanmade/asset-loader": "^0.3.2"
     },
     "require-dev": {
         "altis/local-chassis": "^1.0.0",
@@ -26,6 +27,7 @@
         },
         "installer-paths": {
             "content/mu-plugins/{$name}/": [
+                "humanmade/asset-loader",
                 "type:wordpress-muplugin"
             ],
             "content/plugins/{$name}/": [
