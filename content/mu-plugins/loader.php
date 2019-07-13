@@ -6,7 +6,7 @@
  * Author URI:  https://humanmade.com/
  * Version:     1.0
  *
- * @package siemens-milestones
+ * @package block-playground
  */
 
 if ( defined( 'WP_INSTALLING' ) && WP_INSTALLING ) {
@@ -21,7 +21,7 @@ $global_mu_plugins = [
 
 // Load the plugin files, if they exist.
 foreach ( $global_mu_plugins as $file ) {
-	if ( file_exists( WPMU_PLUGIN_DIR . '/' . $file ) ) {
+	if ( is_readable( WPMU_PLUGIN_DIR . '/' . $file ) ) {
 		require_once WPMU_PLUGIN_DIR . '/' . $file;
 	}
 }
