@@ -8,6 +8,7 @@
     "email": "hello@humanmade.com"
   },
   "scripts": {
+    "vagrant": "cd chassis && vagrant"
   },
   "devDependencies": {
   }
