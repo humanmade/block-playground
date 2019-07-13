@@ -1,7 +1,7 @@
 # Altis
-/wordpress
-/index.php
-/wp-config.php
 /chassis
-/vendor
 /content/uploads
+/index.php
+/vendor
+/wordpress
+/wp-config.php
