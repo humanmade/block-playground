@@ -16,6 +16,7 @@ if ( defined( 'WP_INSTALLING' ) && WP_INSTALLING ) {
 // Plugins to be loaded for any site.
 $global_mu_plugins = [
 	'asset-loader/asset-loader.php',
+	'custom-blocks/custom-blocks.php',
 ];
 
 // Load the plugin files, if they exist.

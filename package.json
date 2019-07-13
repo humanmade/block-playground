@@ -8,9 +8,16 @@
     "email": "hello@humanmade.com"
   },
   "scripts": {
+    "build": "webpack --config=.config/webpack.prod.js",
     "phpcs": "vendor/bin/phpcs --standard=.config/phpcs.xml .",
+    "start": "webpack-dev-server --config=.config/webpack.dev.js",
     "vagrant": "cd chassis && vagrant"
   },
   "devDependencies": {
+    "@humanmade/webpack-helpers": "^0.5.0",
+    "node-sass": "^4.12.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   }
 }

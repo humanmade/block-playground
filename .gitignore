@@ -1,5 +1,6 @@
 /chassis
 /content/mu-plugins/asset-loader
+/content/mu-plugins/custom-blocks/build
 /content/themes/twentynineteen
 /content/uploads
 /index.php
