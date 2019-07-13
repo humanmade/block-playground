@@ -8,6 +8,7 @@
     "email": "hello@humanmade.com"
   },
   "scripts": {
+    "phpcs": "vendor/bin/phpcs --standard=.config/phpcs.xml .",
     "vagrant": "cd chassis && vagrant"
   },
   "devDependencies": {
