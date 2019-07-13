@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "@humanmade/block-playground",
+  "version": "0.1.0",
+  "description": "Local development environment designed for learning Gutenberg development.",
+  "author": {
+    "name": "Human Made",
+    "email": "hello@humanmade.com"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
