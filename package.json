@@ -9,7 +9,9 @@
   },
   "scripts": {
     "build": "webpack --config=.config/webpack.prod.js",
-    "phpcs": "vendor/bin/phpcs --standard=.config/phpcs.xml .",
+		"phpcs": "vendor/bin/phpcs --standard=.config/phpcs.xml .",
+		"reset-environment": "npm run vagrant destroy -- -f && rm -rf chassis vendor wordpress node_modules content/mu-plugins/asset-loader",
+		"setup-vm": "composer chassis init",
     "start": "webpack-dev-server --config=.config/webpack.dev.js",
     "vagrant": "cd chassis && vagrant"
   },
