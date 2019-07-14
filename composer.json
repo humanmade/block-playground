@@ -28,6 +28,9 @@
     "extra": {
         "altis": {
             "modules": {
+                "cms": {
+                    "default-theme": "twentynineteen"
+                },
                 "media": {
                     "tachyon": false
                 }
