@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7db8a51a41f4d3401add806039f01b17",
+    "content-hash": "f28ce721e4ea1fc97526fc3ef259c59b",
     "packages": [
         {
             "name": "altis/altis",
