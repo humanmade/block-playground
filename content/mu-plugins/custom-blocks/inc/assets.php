@@ -2,7 +2,7 @@
 /**
  * Register and load all custom block scripts & style bundles.
  *
- * @package HM\Custom_Blocks
+ * @package block-playground
  */
 
 namespace HM\Custom_Blocks\Assets;

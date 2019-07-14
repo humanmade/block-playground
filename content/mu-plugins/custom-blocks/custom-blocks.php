@@ -11,7 +11,7 @@
  * Author:      Human Made Limited
  * Author URI:  https://humanmade.com/
  *
- * @package HM\Custom_Blocks
+ * @package block-playground
  */
 
 namespace HM\Custom_Blocks;
