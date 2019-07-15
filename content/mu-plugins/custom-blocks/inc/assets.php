@@ -5,7 +5,7 @@
  * @package block-playground
  */
 
-namespace HM\Custom_Blocks\Assets;
+namespace Custom_Blocks\Assets;
 
 use Asset_Loader;
 
@@ -34,7 +34,9 @@ function enqueue_editor_assets() {
 			'scripts' => [
 				'wp-blocks',
 				'wp-components',
+				'wp-compose',
 				'wp-data',
+				'wp-edit-post',
 				'wp-element',
 			],
 		]

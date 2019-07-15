@@ -14,7 +14,11 @@
  * @package block-playground
  */
 
-namespace HM\Custom_Blocks;
+namespace Custom_Blocks;
 
 require_once __DIR__ . '/inc/assets.php';
 Assets\setup();
+
+require_once __DIR__ . '/inc/autoloader.php';
+require_once __DIR__ . '/inc/block-editor-plugins.php';
+Block_Editor_Plugins\setup();
