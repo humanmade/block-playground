@@ -13,6 +13,7 @@
 		"reset-environment": "npm run vagrant destroy -- -f && rm -rf chassis vendor wordpress node_modules content/mu-plugins/asset-loader",
 		"setup-vm": "composer chassis init",
 		"start": "webpack-dev-server --config=.config/webpack.dev.js",
+		"tail-logs:php": "tail -n25 -f chassis/logs/php/php_errors.log",
 		"vagrant": "cd chassis && vagrant"
 	},
 	"devDependencies": {
